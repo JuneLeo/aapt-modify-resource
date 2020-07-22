@@ -12,6 +12,12 @@
     * androidfw/Android.bp
     * androidfw/Helper.cpp
     * androidfw/ResourceTypes.cpp
+* 编译
+  * 下载 aosp
+  * 执行 . build/envsetup.sh
+  * cd frameworks/base/tools/aapt
+  * 执行 mm
+  * 输出目录out/host/（windows | linux）/bin/aapt
 * 使用方式
     * aapt为android 8.0编译，可以将source/linux/aapt 移动到Sdk/build-tools/26.0.x 目录下
     * 插件项目中替换
