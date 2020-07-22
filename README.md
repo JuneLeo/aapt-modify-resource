@@ -16,7 +16,7 @@
     * aapt为android 8.0编译，可以将source/linux/aapt 移动到Sdk/build-tools/26.0.x 目录下
     * 插件项目中替换
     ```
-   buildToolsVersion "26.0.2"
+   buildToolsVersion "26.0.x"
    aaptOptions {
           additionalParameters '--apk-module','0x5f'
       }
